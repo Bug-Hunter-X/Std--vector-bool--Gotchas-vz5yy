@@ -1,0 +1,1 @@
+This repository demonstrates the unexpected behavior of std::vector<bool> in C++.  std::vector<bool> is optimized for memory usage but sacrifices some vector-like properties. This can lead to subtle bugs if not handled properly.  The example code showcases this behavior and a suggested alternative.
