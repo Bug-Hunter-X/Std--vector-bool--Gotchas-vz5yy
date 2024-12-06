@@ -1,0 +1,1 @@
+std::vector<bool> is not a true vector. It is implemented as a bitset for memory efficiency, but this leads to unexpected behavior. For example, iterators are not random access iterators, and element access is not constant time. Using std::vector<bool> in situations where you need a true vector can lead to performance issues and unexpected results.
